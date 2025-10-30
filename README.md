@@ -6,7 +6,7 @@ Swagger UI disponible en: `http://localhost:8081/api/v1/swagger-ui/index.html`
 
 ## Descripción
 
-Este microservicio gestiona todas las operaciones relacionadas con campañas de marketing y promoción para establos ganaderos. Implementa principios de arquitectura limpia, SOLID y patrones de diseño empresariales.
+Este microservicio gestiona todas las operaciones relacionadas con campañas para establos ganaderos. Implementa principios de arquitectura limpia, SOLID y patrones de diseño empresariales.
 
 ## Características
 
@@ -21,7 +21,7 @@ Este microservicio gestiona todas las operaciones relacionadas con campañas de 
 
 ## Requisitos Previos
 
-- Java 17 o superior(Usar JDK 17)
+- Java 17 o superior (Usar JDK 17)
 - Maven 3.8.0 o superior
 - MySQL 8.0 o superior
 - IntelliJ IDEA (recomendado)
@@ -35,4 +35,4 @@ Editar `src/main/resources/application.properties`:
 spring.datasource.url=jdbc:mysql://localhost:3306/campaign_management_db
 spring.datasource.username=root
 spring.datasource.password=your_password
-jwt.secret=your-secret-key-change-this-in-production
+//jwt.secret=your-secret-key-change-this-in-production
